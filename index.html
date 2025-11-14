@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hoja de Vida - Nikol Ocampo  Mejia</title>
+  <style>
+    :root{--accent:#ec4899;--muted:#f0aaf4;--bg:#fdf2f8}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0f172a}
+    .page{max-width:900px;margin:32px auto;padding:28px;background:#f3f3f3;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.08)}
+    header{display:flex;align-items:center;gap:20px}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:4px 0;color:var(--muted)}
+
+    .contact{margin-left:auto;text-align:right}
+    .contact a{color:var(--accent);text-decoration:none}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:28px;margin-top:20px}
+    .card{padding:18px;border-radius:10px;background:#f2bed5;border:1px solid rgba(15,23,42,0.03)}
+    h2{font-size:16px;margin:0 0 12px 0}
+    ul{margin:0;padding-left:18px}
+    li{margin-bottom:8px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;padding:6px 10px;border-radius:999px;font-size:13px}
+
+    .experience .job{margin-bottom:14px}
+    .job h3{margin:0;font-size:15px}
+    .job .meta{color:var(--muted);font-size:13px;margin-bottom:6px}
+
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* Responsive */
+    @media (max-width:800px){.grid{grid-template-columns:1fr;}.contact{text-align:left;margin-top:8px}}
+
+    /* Print friendly */
+    @media print{
+      body{background:white}
+      .page{box-shadow:none;margin:0;border-radius:0}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="avatar">NO</div>
+      <div>
+        <h1>Nikol Ocampo Mejia</h1>
+        <p class="lead">Persona responsable y comprometida. Interés en aportar soluciones creativas y aprender continuamente.</p>
+      </div>
+
+      <div class="contact">
+        <div>📧 Correo:Nikolmejia18@gmail.com</div>
+        <div>Medellin-Antioquia</div>
+      </div>
+    </header>
+
+    <section class="grid">
+      <section>
+        <div class="card">
+          <h2>Perfil Profesional</h2>
+          <p>Persona con buenas habilidades de comunicación, trabajo en equipo y orientación a resultados. Dispuesta a aprender y asumir responsabilidades.</p>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2>Educación</h2>
+          <ul>
+            <li><strong>Bachillerato</strong> — Institución Educativa Federico Carrasquilla (2025)</li>
+            <!-- Desarrollo de Software  -->
+          </ul>
+        </div>
+
+              <div class="card" style="margin-top:14px">
+          <h2>Proyectos Destacados</h2>
+          <ul>
+            <li><strong>Desarrollo de Software</strong></li>
+            <li>Vivero del Software (2025).</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h2>Habilidades</h2>
+          <div class="skills">
+            <span class="skill">Trabajo en equipo</span>
+            <span class="skill">Comunicación</span>
+            <span class="skill">Organización</span>
+            <span class="skill">Herramientas digitales</span>
+            <span class="skill">Adaptabilidad</span>
+            <span class="skill">Responsabilidad</span>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2>Idiomas</h2>
+          <ul>
+            <li>Español — Nativo</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2>Referencias</h2>
+          <p>Disponibles a solicitud.</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+    </footer>
+  </main>
+</body>
+</html>
+
